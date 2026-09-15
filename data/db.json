@@ -1,0 +1,66 @@
+{
+  "users": [
+    {
+      "id": "demo-r3aper",
+      "username": "R3APER",
+      "email": "r3aper@gamerhub.local",
+      "passwordHash": "",
+      "avatar": "",
+      "cover": "",
+      "bio": "Ranked oynarım. Takım arıyorum.",
+      "games": [
+        {
+          "game": "VALORANT",
+          "rank": "Diamond",
+          "role": "Duelist"
+        },
+        {
+          "game": "CS2",
+          "rank": "18K",
+          "role": "Rifler"
+        }
+      ],
+      "friends": [],
+      "createdAt": "2026-09-15T00:00:00.000Z"
+    },
+    {
+      "id": "demo-lunaa",
+      "username": "Lunaa",
+      "email": "lunaa@gamerhub.local",
+      "passwordHash": "",
+      "avatar": "",
+      "cover": "",
+      "bio": "Controller main.",
+      "games": [
+        {
+          "game": "VALORANT",
+          "rank": "Ascendant",
+          "role": "Controller"
+        }
+      ],
+      "friends": [],
+      "createdAt": "2026-09-15T00:00:00.000Z"
+    },
+    {
+      "id": "demo-mert",
+      "username": "MertFPS",
+      "email": "mert@gamerhub.local",
+      "passwordHash": "",
+      "avatar": "",
+      "cover": "",
+      "bio": "CS2 ve FPS.",
+      "games": [
+        {
+          "game": "CS2",
+          "rank": "18K",
+          "role": "Rifler"
+        }
+      ],
+      "friends": [],
+      "createdAt": "2026-09-15T00:00:00.000Z"
+    }
+  ],
+  "messages": [],
+  "invites": [],
+  "notifications": []
+}

@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+*{box-sizing:border-box}
+body{margin:0;background:radial-gradient(circle at 70% -10%,rgba(124,92,255,.18),transparent 35%),#070a12;color:#f4f7fb;font-family:Arial,Helvetica,sans-serif}
+button,input,textarea,select{font:inherit}
+::-webkit-scrollbar{width:8px}::-webkit-scrollbar-thumb{background:#293247;border-radius:20px}
+@layer components{
+.card{@apply rounded-2xl border border-line bg-panel}
+.btn{@apply rounded-xl px-4 py-2 font-semibold transition}
+.btn-primary{@apply btn bg-accent hover:bg-violet-500}
+.btn-secondary{@apply btn border border-line bg-panel2 hover:bg-slate-800}
+.input{@apply w-full rounded-xl border border-line bg-panel2 px-3 py-2.5 outline-none focus:border-accent}
+}
